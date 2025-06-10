@@ -54,14 +54,3 @@ int	ft_printf(const char *format, ...)
 	va_end(ap);
 	return (i);
 }
-
-/*int main()
-{
-    int count;
-
-    count = ft_printf("%d\n", 255);
-    printf("The chars written are %d\n", count);
-    count = printf("%d\n", 255);
-    printf("The chars written are %d\n", count);
-    return (0);
-}*/
